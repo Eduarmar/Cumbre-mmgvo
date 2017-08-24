@@ -212,6 +212,11 @@ p {
 }
 
 
+#vender .img-responsive{
+  width: 300px;
+}
+
+
 /*SERVICES*/
 
 .services {
@@ -283,9 +288,33 @@ margin-bottom: 50px;
   padding-bottom: 70px;
 }
 
+.Mensaje1 .img-responsive{
+  width: 300px;
+}
+
 /*PRICING*/
 
-.pricing {
+#pricing .pricing {
+
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+
+#pricing .pricing h2, #pricing .pricing p {
+
+    color:black;
+}
+
+#pricing .pricing p {
+
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+
+#aprenderas .pricing {
 
     padding: 50px 0 80px;
     text-align: center;
@@ -293,23 +322,19 @@ margin-bottom: 50px;
     /*background-image: url(../images/prueba.png);*/
 }
 
-.pricing h4,
-.pricing h2{
+#aprenderas .pricing h4, #aprenderas .pricing h2{
 
   color: #fff;
   padding-bottom: 70px;
 }
 
 
-.pricing p {
+#aprenderas .pricing p {
 
     color: #fff;
-}
-
-.pricing p {
-
     padding-bottom: 40px;
 }
+
 
 .pricing .packages {
 
@@ -330,13 +355,13 @@ margin-bottom: 50px;
 .packages h4,
 .packages h1,
 .packages b {
-
+    font-size: 25px;
     color: #4c4c4c;
 }
 
 .packages p,
 .packages li {
-
+    font-size: 20px;
     color: #737373;
 }
 
@@ -344,6 +369,7 @@ margin-bottom: 50px;
 
     margin-top: 10px;
 }
+
 
 
 
@@ -378,6 +404,14 @@ margin-bottom: 50px;
     color: #4c4c4c;
 }
 
+.team .img-responsive{
+  border: none;
+  margin-top: -60px;
+  margin-bottom: 8px;
+  width: 260px;
+  height: 260px;
+
+}
 
 .team p {
 
@@ -389,7 +423,10 @@ margin-bottom: 50px;
     height: 150px;
     width: 150px;
     margin-top: 80px;
+    border: solid;
+    border-width: .4px;
 }
+
 
 
 .team i {
@@ -399,7 +436,7 @@ margin-bottom: 50px;
     padding: 5px;
     font-size: 17px;
     border-radius: 50%;
-    background-color: #a0db8e;
+    background-color: #606060;
     color: #fff;
 }
 
