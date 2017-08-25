@@ -24,30 +24,18 @@ a:hover, a:active {
   /*text-decoration: none;*/
 }
 
-<<<<<<< HEAD
-h1, h2, h4 {
-  font-family: 'PT Sans Narrow', Arial, sans-serif;
-  /*text-transform: uppercase;*/
-  font-weight: 700;
-=======
 h1,
 h2,
 h4 {
     font-family:'Roboto', sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 700;
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
 }
 
 p {
-<<<<<<< HEAD
-  font-size: 15px;
-  line-height: 21px;
-=======
   font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     line-height: 21px;
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
 }
 
 #services p {
@@ -76,18 +64,10 @@ opacity: 0.8;
 
 /*NAVIGATION*/
 
-<<<<<<< HEAD
-.navbar {
-  background-color: #222222 !important;
-  text-transform: uppercase;
-  font-family: 'PT Sans Narrow', Arial, sans-serif;
-  font-weight: 700;
-=======
     background-color: #222222 !important;
     text-transform: uppercase;
     font-family: Roboto;
     font-weight: 700;
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
 }
 
 .navbar a {
@@ -221,14 +201,10 @@ opacity: 0.8;
   font-size: 20px;
 }
 
-<<<<<<< HEAD
-#vender .img-responsive {
-=======
 #vender img{
    box-shadow: 10px 10px 5px grey;
 }
 #vender .img-responsive{
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
   width: 300px;
 }
 
@@ -267,11 +243,6 @@ opacity: 0.8;
   color: #fff;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
 @media(max-width:768px) {
   .services {
     padding: 30px;
@@ -403,12 +374,8 @@ font-size: 30px;
   text-align: center;
 }
 
-<<<<<<< HEAD
-.team b {
-=======
 .team b{
   font-size: 17px;
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
   margin: 20px 0 20px;
   color: #696969;
 }
@@ -427,13 +394,9 @@ font-size: 30px;
 }
 
 .team p {
-<<<<<<< HEAD
-  color: #737373;
-=======
 
     font-size: 16px;
     color: #737373;
->>>>>>> b86c9eaed86296713137dd5a73b92209de3f705e
 }
 
 .team img {
