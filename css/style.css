@@ -283,28 +283,38 @@ margin-bottom: 50px;
 }
 
 
-/*Mensaje1*/
+/*Mensaje*/
 
-.Mensaje1 {
+.Mensaje-bg1 {
 
-    padding: 50px 0 80px;
-    text-align: center;
-    background-color: #009933;
+    background-color: #cc4400;
     /*background-image: url(../images/prueba.png);*/
 }
 
-.Mensaje1 h1{
+.Mensaje-bg2 {
+
+    background-color: #009944;
+    /*background-image: url(../images/prueba.png);*/
+}
+
+.Mensaje {
+
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.Mensaje h1{
 
   color: #fff;
   padding-bottom: 70px;
 }
 
-.Mensaje1 img{
+.Mensaje img{
 
   padding-bottom: 70px;
 }
 
-.Mensaje1 .img-responsive{
+.Mensaje .img-responsive{
   width: 300px;
 }
 
@@ -428,8 +438,8 @@ margin-bottom: 50px;
   border: none;
   margin-top: -60px;
   margin-bottom: 8px;
-  width: 260px;
-  height: 260px;
+  width: 280px;
+  height: 240px;
 
 }
 
@@ -470,15 +480,15 @@ margin-bottom: 50px;
 
 .clients {
 
-    padding: 50px 0 80px;
-    background-color: #3399ff;
+    padding: 50px 0 90px;
+    background-color: #f1f1f1;
     text-align: center;
-    color: #fff;
+    color: black;
 }
 
-.client h2 {
+.clients h2 {
 
-    color: #5e5e5e;
+    color: black;
 }
 
 .clients p {
@@ -488,10 +498,8 @@ margin-bottom: 50px;
 
 .clients img {
 
-    width: 200px;
-    opacity: 0.6;
-    cursor: pointer;
-    margin: 40px 0;
+    opacity: 0.8;
+    padding-bottom: 40px;
     transition: all 500ms ease-in-out;
 }
 
