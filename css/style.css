@@ -31,13 +31,14 @@ a:active {
 h1,
 h2,
 h4 {
-    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-family:'Roboto', sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 700;
 }
 
 
 p {
+  font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     line-height: 21px;
 }
@@ -69,7 +70,7 @@ p {
 
     background-color: #222222 !important;
     text-transform: uppercase;
-    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-family: Roboto;
     font-weight: 700;
 }
 
@@ -425,6 +426,7 @@ margin-bottom: 50px;
 }
 
 .team b{
+  font-size: 17px;
   margin: 20px 0 20px;
   color:#696969;
 }
@@ -446,6 +448,7 @@ margin-bottom: 50px;
 
 .team p {
 
+    font-size: 16px;
     color: #737373;
 }
 
