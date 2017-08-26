@@ -202,12 +202,15 @@ opacity: 0.8;
 }
 
 #vender img{
-   box-shadow: 10px 10px 5px grey;
+
 }
 #vender .img-responsive{
   width: 300px;
 }
 
+.foto{
+     box-shadow: 10px 10px 5px grey;
+}
 
 /*SERVICES*/
 
@@ -223,6 +226,8 @@ opacity: 0.8;
   margin-bottom: 50px;
   color: white;
 }
+
+
 
 .services h4 {
   color: white;
