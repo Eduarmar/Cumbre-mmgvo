@@ -32,6 +32,12 @@ h4 {
     font-weight: 700;
 }
 
+@media screen and (max-width: 450px) {
+  h1{
+      font-size: 30px;
+    }
+}
+
 p {
   font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
@@ -144,20 +150,15 @@ opacity: 0.8;
     height: 750px;
   }
   .header img {
-    width: 90%;
+    width: 300px;
     height: 300px;
     margin: 20px 0 0 20px;
   }
-  .header .btn {
-    font-size: 10px;
-    margin-left: 20px;
-  }
+
   .header h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
-  .header p {
-    font-size: 10px;
-  }
+
 }
 
 
@@ -218,6 +219,7 @@ opacity: 0.8;
   padding: 50px 0 50px;
   text-align: center;
   background-image: url(../images/evento2.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -261,31 +263,38 @@ opacity: 0.8;
 /*Mensaje*/
 
 .Mensaje-bg1 {
-  background-color: #cc4400;
-  /*background-image: url(../images/prueba.png);*/
+
+  background-image: url(../images/Frase1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .Mensaje-bg2 {
-  background-color: #009944;
-  /*background-image: url(../images/prueba.png);*/
+
+  padding: 0px 0 42px;
+  background-image: url(../images/Frase2.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .Mensaje {
-  padding: 50px 0 80px;
   text-align: center;
 }
 
 .Mensaje h1 {
-  color: #fff;
+  color: white;
   padding-bottom: 70px;
 }
 
 .Mensaje img {
-  padding-bottom: 70px;
+  margin-top: 35px;
+  padding-bottom: 20px;
 }
 
 .Mensaje .img-responsive {
-  width: 300px;
+  width: 250px;
 }
 
 
@@ -310,6 +319,7 @@ opacity: 0.8;
   padding: 50px 0 80px;
   text-align: center;
   background-image: url(../images/Aprenderas.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -373,6 +383,17 @@ opacity: 0.8;
 color: white;
 font-size: 30px;
 
+}
+
+@media screen and (max-width: 450px) {
+  #promociones h1 {
+    font-size: 38px;
+  }
+
+  #promociones h4{
+  font-size: 28px;
+
+  }
 }
 
 
