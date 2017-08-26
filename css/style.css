@@ -568,6 +568,15 @@ font-size: 30px;
 }
 
 
+/*Payu*/
+
+#bancos .bancos{
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*Aweber*/
 
 <style type="text/css">#af-form-1416930558 .af-body .af-textWrap {
