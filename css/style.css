@@ -214,23 +214,26 @@ opacity: 0.8;
 .services {
   padding: 50px 0 50px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-image: url(../images/evento2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #services h2 {
   margin-bottom: 50px;
+  color: white;
 }
 
 .services h4 {
-  color: #4c4c4c;
+  color: white;
   /*margin: 10px 0 20px;*/
 }
 
 .services p {
-  color: #737373;
+  color: white;
   font-size: 14px;
   line-height: 35px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .services i {
@@ -301,8 +304,9 @@ opacity: 0.8;
 #aprenderas .pricing {
   padding: 50px 0 80px;
   text-align: center;
-  background-color: #3399ff;
-  /*background-image: url(../images/prueba.png);*/
+  background-image: url(../images/Aprenderas.png);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #aprenderas .pricing h4, #aprenderas .pricing h2 {
