@@ -24,6 +24,37 @@
 
 <body>
 
+  <script>
+    window.fbMessengerPlugins = window.fbMessengerPlugins || {
+      init: function() {
+        FB.init({
+          appId: "1678638095724206",
+          xfbml: true,
+          version: "v2.6"
+        });
+      },
+      callable: []
+    };
+    window.fbAsyncInit = window.fbAsyncInit || function() {
+      window.fbMessengerPlugins.callable.forEach(function(item) {
+        item();
+      });
+      window.fbMessengerPlugins.init();
+    };
+    setTimeout(function() {
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    }, 0);
+  </script>
+
   <!--NAVIGATION-->
 
   <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -63,7 +94,7 @@
 
         <div class="col-lg-6 col-md-6 wow bounceInLeft">
           <h1>El mayor evento de ventas de Bucaramanga</h1>
-          <a target="_blank" href="cuentas.html"><button class="btn btn-lg .btn-warning center-block">Inscribete YA</button></a>
+          <a target="_blank" href="cuentas.html"><button class="btn btn-lg .btn-warning center-block">Inscríbete YA</button></a>
         </div>
       </div>
     </div>
@@ -87,7 +118,7 @@
           <!--Video ?autoplay=1&loop=1 -->
 
         </div>
-        <a target="_blank" href="cuentas.html"><button class="btn btn-lg .btn-warning center-block">Inscribete YA</button></a>
+        <a target="_blank" href="cuentas.html"><button class="btn btn-lg .btn-warning center-block">Inscríbete YA</button></a>
       </div>
     </div>
   </section>
@@ -101,14 +132,14 @@
 
     <div class="container">
       <img src="images/Logo_Cumbre de Ventas-01.png" alt="" class="center-block img-responsive">
-      <h2 class="wow fadeInUp text-center">8 Horas de inmersion total</h2>
+      <h2 class="wow fadeInUp text-center">8 Horas de inmersión total</h2>
       <div class="row">
         <div class="col-lg-6 col-md-6">
           <img src="images/foto-editada.png" alt="" class="center-block rounded wow fadeInUp foto" width="90%">
         </div>
         <div class="col-lg-6 col-md-6 venderecha wow fadeInDown">
-          <p>Vender es la habilidad #1 para el exito en los negocios, por eso presentamos por primera vez en Bucaramanga a los expertos de 4 paises que haran despegar las ventas de las empresas participantes.</p>
-          <p>Las nuevas estrategias, tecnologias y formas de vender en un solo evento.</p>
+          <p>Vender es la habilidad #1 para el éxito en los negocios, por eso presentamos por primera vez en Bucaramanga a los expertos de 4 países que harán despegar las ventas de las empresas participantes.</p>
+          <p>Las nuevas estrategias, tecnologías y formas de vender en un solo evento.</p>
         </div>
 
 
@@ -139,7 +170,7 @@
           <h4>Vendedores</h4>
         </div>
         <div class="col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
-        <img src="images/Iconos/iconos-03.png" class="img-circle wow flipInY" data-wow-delay="0.2s" alt="" width="120px">
+          <img src="images/Iconos/iconos-03.png" class="img-circle wow flipInY" data-wow-delay="0.2s" alt="" width="120px">
           <h4>Dueños de Negocios</h4>
         </div>
       </div>
@@ -211,7 +242,7 @@
     <div class="pricing">
       <div class="container">
         <div class="row">
-          <h2 class="wow fadeInUp">Aprenderas Como</h2>
+          <h2 class="wow fadeInUp">Aprenderás Como</h2>
           <br>
           <div class="col-lg-4 col-md-4">
             <img src="images/Iconos/iconos-04.png" class="img-circle wow flipInY" data-wow-delay="0.2s" alt="" width="150px">
@@ -219,11 +250,11 @@
           </div>
           <div class="col-lg-4 col-md-4">
             <img src="images/Iconos/iconos-05.png" class="img-circle wow flipInY" data-wow-delay="0.4s" alt="" width="150px">
-            <h4 class="wow fadeInUp" data-wow-delay="0.6s">Crear una maquina de ventas Online</h4>
+            <h4 class="wow fadeInUp" data-wow-delay="0.6s">Crear una máquina de ventas Online</h4>
           </div>
           <div class="col-lg-4 col-md-4">
             <img src="images/Iconos/iconos-06.png" class="img-circle wow flipInY" data-wow-delay="0.6s" alt="" width="150px">
-            <h4 class="wow fadeInUp" data-wow-delay="0.8s">Negociar e influir con exito</h4>
+            <h4 class="wow fadeInUp" data-wow-delay="0.8s">Negociar e influir con éxito</h4>
           </div>
         </div>
         <br>
@@ -296,9 +327,9 @@
           </div>
           <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.4s">
             <div class="packages">
-              <h4>Dia del Evento</h4>
+              <h4>Día del evento</h4>
               <h1>$197.000</h1>
-              <b>Sabado</b>
+              <b>Sábado</b>
               <p>28 de Octubre</p>
             </div>
           </div>
@@ -308,17 +339,17 @@
 
 
       <div id="promociones" class="container promociones wow fadeInUp">
-          <div class="jumbotron">
-            <h1>Promociones</h1>
-            <br>
-            <h4>3x2 => Van 3 y pagan 2</h4>
-            <h4>6x4 => Van 6 y pagan 4</h4>
-            <h4>Apartir de 6 tienes dos entradas de cortesia</h4>
+        <div class="jumbotron">
+          <h1>Promociones</h1>
+          <br>
+          <h4>3x2 => Van 3 y pagan 2</h4>
+          <h4>6x4 => Van 6 y pagan 4</h4>
+          <h4>Apartir de 6 tienes dos entradas de cortesía</h4>
 
         </div>
       </div>
 
-    <a target="_blank" href="cuentas.html"><button class="btn btn-lg .btn-warning center-block">Inscribete YA</button></a>
+      <a target="_blank" href="cuentas.html"><button class="btn btn-lg .btn-warning center-block">Inscríbete YA</button></a>
     </div>
   </section>
 
@@ -326,20 +357,20 @@
 
 
   <!--- Clients ---->
-<section id="client">
-  <div class="clients">
-    <div class="container">
-      <div class="row">
-        <h2 class="wow fadeInUp">Patrocinio Por</h2>
-        <br>
-        <br>
-        <img src="images/Cumbre/patro-01.jpg" alt="" class="wow fadeInUp center-block img-responsive">
-        <button class="btn btn-lg center-block wow fadeInUp data-wow-delay="0.6s"" style="color:white;">Quiero ser Patrocinante</button>
+  <section id="client">
+    <div class="clients">
+      <div class="container">
+        <div class="row">
+          <h2 class="wow fadeInUp">Patrocinio Por</h2>
+          <br>
+          <br>
+          <img src="images/Cumbre/patro-01.jpg" alt="" class="wow fadeInUp center-block img-responsive">
+          <button class="btn btn-lg center-block wow fadeInUp data-wow-delay=" 0.6s "" style="color:white;">Quiero ser Patrocinante</button>
+        </div>
       </div>
     </div>
-  </div>
 
-</section>
+  </section>
 
   <!---- End Clients ----->
 
@@ -349,7 +380,7 @@
     <div class="container">
       <div class="row">
         <img src="images/Logo_Cumbre de Ventas-01.png" class="img-responsive center-block wow fadeInUp" data-wow-delay="0.2s" alt="">
-        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Este es un evento solo para aquellos que quieran ganar mas dinero</h1>
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Este es un evento solo para aquellos que quieran ganar más dinero</h1>
       </div>
     </div>
   </div>
@@ -361,7 +392,7 @@
   <div id="contact" class="contact">
     <div class="container">
       <div class="row">
-        <h2 class="wow fadeInUp">Mas Informacion</h2>
+        <h2 class="wow fadeInUp">Mas Información</h2>
         <!-- <p class="wow fadeInUp" data-wow-delay="0.4">Lorem Ipsum passages, and more recently with desktop publishing software</p> -->
         <div class="col-lg-6 col-md-6 wow fadeInUp " data-wow-delay="0.5s">
 
@@ -453,12 +484,13 @@
 
         <!-- /AWeber Web Form Generator 3.0.1 -->
 
+        <body>
 
         <div class="col-lg-6 col-md-6 align-content-center">
           <div class="col-lg-10 col-md-10 col-md-offset-2">
 
             <div class="well wow fadeInUp" data-wow-delay="0.5s">
-              <h2 class="text-muted">Contactanos</h2>
+              <h2 class="text-muted">Contáctanos</h2>
               <ul>
                 <li><abbr title="Phone">Ricardo Zárate:</abbr> (316) 2681897 / +58-4249605862</li>
                 <li><abbr title="Phone">Carolina Zárate:</abbr> (316) 6477301 / +58-4249480062</li>
@@ -467,13 +499,33 @@
                 <li><abbr title="Web">Pagina:</abbr> <a href="www.grupo-alternativa.com">www.grupo-alternativa.com</a></li>
               </ul>
               <hr>
+              <h3>Conversar Por Chat</h3>
+              <br>
+
+
+              <div class="fb-send-to-messenger"
+              messenger_app_id="1678638095724206"
+              page_id="133621263375001"
+              data-ref="b64:QmllbnZlbmlkbw=="
+              color="blue"
+              size="xlarge">
+              </div>
+
               <!-- <p><a class="btn btn-default btn-lg" href="#"><i class="icon-ok"></i><strong>Conversar Por Chat</strong></a></p> -->
+
             </div>
 
 
             <br>
 
           </div>
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
@@ -488,8 +540,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6">
-          <h4 class="wow fadeInUp" data-wow-delay="0.5s">Informacion del evento</h4>
-          <p><i class="fa fa-calendar" aria-hidden="true"></i> Fecha: Sabado 28 de Octubre 2017</p>
+          <h4 class="wow fadeInUp" data-wow-delay="0.5s">Información del evento</h4>
+          <p><i class="fa fa-calendar" aria-hidden="true"></i> Fecha: Sábado 28 de Octubre 2017</p>
           <p><i class="fa fa-map-marker" aria-hidden="true"></i> Lugar: FENALCO</p>
           <p><i class="fa fa-envelope-o" aria-hidden="true"></i> elgrupoalternativa@gmail.com</p>
           <p><i class="fa fa-globe" aria-hidden="true"></i> www.grupo-alternativa.com</p>
@@ -497,6 +549,7 @@
         <div class="col-lg-6 col-md-6">
           <h4 class="wow fadeInUp" data-wow-delay="0.7s">Grupo Alternativa</h4>
           <img src="images/Cumbre/Logo white.png" alt="" height="115" width="200">
+
         </div>
       </div>
     </div>
