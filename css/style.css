@@ -309,6 +309,13 @@ color: white;
 
 /*PRICING*/
 
+#pricing {
+  padding: 20px 0 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+
 #pricing .pricing {
   padding: 50px 0 80px;
   text-align: center;
@@ -340,6 +347,23 @@ color: white;
 
 #aprenderas .pricing p {
   color: #fff;
+  padding-bottom: 40px;
+}
+
+#motivos .pricing {
+  padding: 50px 0 80px;
+  background-color: #f1f1f1;
+  text-align: center;
+
+}
+
+#motivos .pricing h4, #motivos .pricing h2 {
+  color: black;
+  padding-bottom: 70px;
+}
+
+#motivos .pricing p {
+  color: black;
   padding-bottom: 40px;
 }
 
@@ -382,7 +406,7 @@ color: white;
 }
 
 #promociones h1 {
-  color: white;
+  color: black;
   font-size: 50px;
   font-weight: 600;
   margin-top: -10px;
