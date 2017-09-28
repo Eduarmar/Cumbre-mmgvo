@@ -313,12 +313,15 @@ color: white;
 
 /*PRICING*/
 
-#pricing {
-  padding: 20px 0 20px;
+#asiste {
+  padding: 10px 0 10px;
   text-align: center;
   background-color: #f1f1f1;
 }
 
+#asiste h1{
+  font-size: 45px;
+}
 
 #pricing .pricing {
   padding: 50px 0 80px;
@@ -354,19 +357,20 @@ color: white;
   padding-bottom: 40px;
 }
 
-#motivos .pricing {
-  padding: 50px 0 80px;
+#motivos {
+  padding: 50px 0 50px;
   background-color: #f1f1f1;
   text-align: center;
+  background-position: center center;
 
 }
 
-#motivos .pricing h4, #motivos .pricing h2 {
+#motivos h4, #motivos h2 {
   color: black;
   padding-bottom: 70px;
 }
 
-#motivos .pricing p {
+#motivos p {
   color: black;
   padding-bottom: 40px;
 }
@@ -409,7 +413,7 @@ color: white;
   }
 }
 
-#promociones h1 {
+/*#promociones h1 {
   color: black;
   font-size: 50px;
   font-weight: 600;
@@ -431,7 +435,7 @@ font-size: 30px;
   font-size: 28px;
 
   }
-}
+}*/
 
 
 /*TEAM*/
